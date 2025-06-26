@@ -8,6 +8,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-xs: 0.75rem;
@@ -242,12 +243,39 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-t {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+  .border-t-2 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 2px;
+  }
+  .border-t-4 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 4px;
+  }
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-t-\[\#13AFF0\] {
+    border-top-color: #13AFF0;
+  }
+  .border-t-blue-500 {
+    border-top-color: var(--color-blue-500);
+  }
   .bg-\[\#06282D\] {
     background-color: #06282D;
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-4\.5 {
+    padding-inline: calc(var(--spacing) * 4.5);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
   }
   .px-18 {
     padding-inline: calc(var(--spacing) * 18);
@@ -257,9 +285,6 @@
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
-  }
-  .py-2\.5 {
-    padding-block: calc(var(--spacing) * 2.5);
   }
   .py-7 {
     padding-block: calc(var(--spacing) * 7);
@@ -316,11 +341,6 @@
       }
     }
   }
-  .max-\[60rem\]\:hidden {
-    @media (width < 60rem) {
-      display: none;
-    }
-  }
   .max-nav\:hidden {
     @media (width < 60rem) {
       display: none;
@@ -333,11 +353,6 @@
   }
   .nav\:hidden {
     @media (width >= 60rem) {
-      display: none;
-    }
-  }
-  .\[60rem\]\:hidden {
-    &:is(60rem) {
       display: none;
     }
   }
