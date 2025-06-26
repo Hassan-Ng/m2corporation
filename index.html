@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <style>
+        * {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        *::selection {
+            background-color: #333333;
+            color: white;
+        }
+
+        .hover-blue>a {
+            transition: .2s ease-in-out all;
+        }
+
+        .hover-blue:hover>a {
+            color: #13AFF0 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <img class="absolute top-0 left-0 w-full -z-1" src="./adhora.png" alt="">
+
+    <header class="bg-[#06282D] text-white">
+        <div class="nav-top px-18 py-1 flex justify-between items-center border-b max-md:flex-col">
+            <h4 class="uppercase text-xs font-semibold">Moving Freight For Over 15 Years</h4>
+            <ul class="social-links flex gap-2 text-sm">
+                <li class="oceanwp-facebook">
+                    <a class="hover-blue" href="https://www.facebook.com/Varstar-Alliance-421817488559889"
+                        aria-label="Facebook (opens in a new tab)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook" aria-hidden="true" role="img"></i>
+                    </a>
+                </li>
+                <li class="oceanwp-instagram">
+                    <a class="hover-blue" href="https://www.instagram.com/varstaralliance/" aria-label="Instagram (opens in a new tab)"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram" aria-hidden="true" role="img"></i>
+                    </a>
+                </li>
+                <li class="oceanwp-linkedin">
+                    <a class="hover-blue" href="https://www.linkedin.com/company/varstaralliance"
+                        aria-label="LinkedIn (opens in a new tab)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin" aria-hidden="true" role="img"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-bottom px-18 flex justify-between items-center">
+            <div class="logo flex flex-col items-center w-56 select-none cursor-pointer hover:opacity-50">
+                <img class="h-8 aspect-square" src="./logo.svg" alt="">
+                <h2 class="uppercase text-sm">M2 Corporation</h2>
+            </div>
+            <div class="nav-links text-sm tracking-wide max-nav:hidden">
+                <nav class="">
+                    <ul class="main-menu flex gap-8">
+                        <li class="menu-item py-7 hover-blue cursor-pointer">
+                            <a href="https://varstaralliance.com/" class="menu-link">
+                                <span class="text-wrap">HOME PAGE</span>
+                            </a>
+                        </li>
+                        <li class="menu-item py-7 hover-blue cursor-pointer">
+                            <a href="https://varstaralliance.com/about-us/" class="menu-link">
+                                <span class="text-wrap">ABOUT US</span>
+                            </a>
+                        </li>
+                        <li class="menu-item py-7 hover-blue cursor-pointer relative">
+                            <a href="https://varstaralliance.com/client-solutions/" class="menu-link">
+                                <span class="text-wrap">
+                                    CLIENT SOLUTIONS
+                                    <i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i>
+                                </span>
+                            </a>
+                            <ul class="sub-menu absolute top-full">
+                                <li class="menu-item border py-2 uppercase">
+                                    <a href="https://varstaralliance.com/services/" class="menu-link">
+                                        <span class="text-wrap">SERVICES</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item border py-2 uppercase">
+                                    <a href="https://varstaralliance.com/customers/" class="menu-link">
+                                        <span class="text-wrap">CUSTOMERS</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item border py-2 uppercase">
+                                    <a href="https://varstar.force.com/customers/login" class="menu-link">
+                                        <span class="text-wrap">LTL Portal Login</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item py-7 hover-blue cursor-pointer">
+                            <a href="https://varstaralliance.com/logistics/" class="menu-link">
+                                <span class="text-wrap">
+                                    LOGISTICS
+                                    <i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i>
+                                </span>
+                            </a>
+                            <ul class="sub-menu hidden" style="opacity: 0; visibility: hidden;">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2649">
+                                    <a href="https://varstaralliance.com/freight-logistics-management/"
+                                        class="menu-link">
+                                        <span class="text-wrap">FREIGHT LOGISTICS MANAGEMENT</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2865">
+                                    <a href="https://www.carlton-logistics.com" class="menu-link">
+                                        <span class="text-wrap">CARLTON LOGISTICS</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item py-7 hover-blue cursor-pointer">
+                            <a href="https://varstaralliance.com/agents/" class="menu-link">
+                                <span class="text-wrap">AGENTS</span>
+                            </a>
+                        </li>
+                        <li class="menu-item py-7 hover-blue cursor-pointer">
+                            <a href="https://varstaralliance.com/carriers/" class="menu-link">
+                                <span class="text-wrap">
+                                    CARRIERS
+                                    <i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i>
+                                </span>
+                            </a>
+                            <ul class="sub-menu hidden">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2844">
+                                    <a href="https://secure.triumphpay.com/" class="menu-link">
+                                        <span class="text-wrap">Carrier Payment Portal</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item py-7 hover-blue cursor-pointer">
+                            <a href="https://varstaralliance.com/contact-us/" class="menu-link">
+                                <span class="text-wrap">CONTACT US</span>
+                            </a>
+                        </li> 
+                        <li class="search-toggle-li py-7 hover-blue cursor-pointer">
+                            <a href="https://varstaralliance.com/#"
+                                class="site-search-toggle search-dropdown-toggle">
+                                <span class="screen-reader-text hidden">Toggle website search</span>
+                                <i class="fa-solid fa-magnifying-glass" aria-hidden="true" role="img"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header-searchform-wrap hidden">
+                        <form aria-label="Search this website" role="search" method="get" class="searchform"
+                            action="https://varstaralliance.com/">
+                            <input aria-label="Insert search query" type="search" id="ocean-search-form-1" class="field"
+                                autocomplete="off" placeholder="Search" name="s">
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <button class="menu-link h-full hover-blue nav:hidden flex gap-3 items-center">
+                <i class="fa-solid fa-bars"></i>
+                <span class="text-wrap">Menu</span>
+            </button>
+        </div>
+    </header>
+</body>
+
+</html>
